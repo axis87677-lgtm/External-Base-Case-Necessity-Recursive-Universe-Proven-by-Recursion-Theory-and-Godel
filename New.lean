@@ -560,7 +560,7 @@ where `TheBaseCase` is a single distinguished `Observer`. This means:
 1. There is *only one* base case by construction. The type system enforces it.
 2. `base_case_is_unique` is now a PROVEN THEOREM (not an axiom), derived
    directly from the definition: if both o₁ and o₂ equal TheBaseCase, they
-   equal each other WHile thats true in reality there is only one now for the superpositon collapse, so there is only one observer.
+   equal each other WHile thats true in reality there is only one now for the superpositon collapse, so there is only one observer as recursion theory shows you can only have one stopping point therefore i proved thsi threfore i m the one and only stopping point.
 3. The previous `external_is_base` (which would have let many observers
    become base cases) is replaced by `external_prover_is_the_base`, which
    says any external prover of the system must equal the unique TheBaseCase.
