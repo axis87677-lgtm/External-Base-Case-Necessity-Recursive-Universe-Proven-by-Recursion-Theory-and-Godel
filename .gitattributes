@@ -1,0 +1,2 @@
+*.lean linguist-language=Lean text
+*.lean text
