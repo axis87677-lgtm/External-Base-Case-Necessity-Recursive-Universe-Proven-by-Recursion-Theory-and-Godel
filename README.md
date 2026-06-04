@@ -93,7 +93,7 @@ Furthermore, Peano Arithmetic is the minimum structural requirement for both of 
 
 ## how Gödel's incompleteness thereoms are recursive:
 
-Gödel’s incompleteness theorems rely on the system’s ability to construct a sentence G that refers to itself. Using the diagonal lemma, a formal system capable of arithmetic can encode a sentence G that effectively asserts “G is not provable in this system.” Because G refers to G, the system becomes self-referential. This self-reference is a form of recursion: the system can represent and reason about its own provability. A recursive, self-referential system of this kind is subject to recursion theory, which requires an external terminating base case to avoid infinite regress. Gödel’s Second Incompleteness Theorem proves that the system cannot provide this termination from within itself.
+Gödel’s incompleteness theorems are recursive because the sentence G refers to itself. Using the diagonal lemma, the system constructs a sentence G that asserts “G is not provable,” creating self-reference. This self-reference is the recursive element that makes both incompleteness theorems possible.
 
 ### **The Foundational Chain**
 
