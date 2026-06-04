@@ -311,9 +311,10 @@ If you don't accept this conclusion, you have to pick one of these:
 - Deny that unitary evolution performs induction
 - But this IS how quantum computing works—this IS how it achieves advantage
 
-### Reject Gödel's Second Incompleteness Theorem:
+### Reject Gödel's Second and First Incompleteness Theorems:
 
-- Deny that formal systems cannot prove their own consistency from within
+- Deny that formal systems cannot prove their own consistency from within (G2)
+- Deny that any consistent formal system has true statements it cannot prove (G1)
 - This is proven mathematics since 1931
 - And it applies directly to any system instantiating Peano Arithmetic (which physics does)
 
