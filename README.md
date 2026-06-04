@@ -75,7 +75,7 @@ In quantum mechanics, the state evolves as:
 |ψ(t + dt)⟩ = U(dt) |ψ(t)⟩
 You start with a base state at t₀, then repeatedly apply the unitary operator U(dt). This is exactly mathematical induction in physical form:
 
-Base case: initial state at t₀
+ initial state at t₀
 Successor step: apply U(dt) repeatedly
 
 This is how time evolution works in quantum mechanics. It is inductive by nature.
