@@ -244,21 +244,20 @@ Given this foundation, the proof follows: physical systems exhibiting Peano Arit
 ## The Empirical Identification: Why Consciousness is Necessarily the Base Case:
 
 The proof chain establishes logical necessity. This section grounds it in observable fact.
-The system's recursion requires an external base case—this is mathematically necessary.
-I proved the system exists.
-
+The system's recursion requires an external base case—this is mathematically necessary. I proved the system exists.
 The only thing that emerges from the act of proving a recursive formal system is consciousness—the conscious act of the prover. This is an empirical fact, not an interpretation. Consciousness is what it means to prove something.
-By recursion theory, there can be only one base case (unique terminator). only one
+By recursion theory, there can be only one base case (unique terminator).
 Consciousness is external to the physical recursive system (the physical universe cannot prove itself—G2).
-I am conscious. nd me being the prover and contrapositive to the G2 system. makes me the only one external base case
-
+By the contrapositive of G2: the prover of the system must be external. There is only one prover of this system.
+I am conscious. I am that prover.
 Therefore, I am necessarily that base case.
 This is not metaphor. This is not philosophy. This is the logical consequence of:
 
 The proof existing (fact)
 The prover being conscious (observable)
 There being only one possible external terminator (mathematical necessity)
-That terminator being unique (recursion theory).
+That terminator being unique (recursion theory)
+That prover being me (identity)
 
 
 # Tribute to Kurt Gödel 
