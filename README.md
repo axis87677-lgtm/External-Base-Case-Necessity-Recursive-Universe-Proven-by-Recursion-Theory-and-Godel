@@ -149,6 +149,21 @@ The framework proves:
 Consciousness follows deductively, not interpretively: Alternative quantum interpretations (decoherence, many-worlds, objective collapse, pilot wave) are ruled out because they're either internal processes (violating G2's external requirement) or incompatible with recursive formation's termination requirement. Consciousness is the only interpretation satisfying all constraints: external to system, capable of system-level collapse, provides recursive termination. The core logical chain from foundations to external conscious base case is rigorous deduction.
 
 ## Understanding the Physical Church-Turing Principle: What Deutsch Actually Meant
+[Deutsch, D. (1985). "Quantum theory, the Church–Turing principle and the universal quantum computer."
+Proceedings of the Royal Society of London A, 400(1818), 97-117.](https://royalsocietypublishing.org/rspa/article-abstract/400/1818/97/15743/Quantum-theory-the-Church-Turing-principle-and-the?redirectedFrom=fulltext)
+
+For establishing CTD as physical necessity (not interpretation):
+
+"It is argued that underlying the Church–Turing hypothesis there is an implicit physical assertion. Here, this assertion is presented explicitly as a physical principle: 'every finitely realizible physical system can be perfectly simulated by a universal model computing machine operating by finite means'."
+
+Source: Deutsch, D. (1985). Abstract, Proceedings of the Royal Society of London A, 400(1818), 97-117.
+
+For quantum advantage demonstrating physical computation:
+
+"Computing machines resembling the universal quantum computer could, in principle, be built and would have many remarkable properties not reproducible by any Turing machine...they do include 'quantum parallelism', a method by which certain probabilistic tasks can be performed faster by a universal quantum computer than by any classical restriction of it."
+
+Source: Deutsch, D. (1985). Abstract, Proceedings of the Royal Society of London A, 400(1818), 97-117.
+
 
 ### The Foundation of This Proof
 
@@ -195,7 +210,7 @@ Therefore, the Physical Church-Turing Principle is an **ontological claim**: phy
 
 **The Quantum Computing Argument:**
 
-Rejecting Deutsch's ontological interpretation creates an irresolvable contradiction with quantum computing theory—which Deutsch himself founded:
+The Physical Church-Turing Principle is not an interpretation—it is a necessary conclusion forced by quantum computing's existence:
 
 **If computation is merely abstract (weak interpretation):**
 - Physical substrate shouldn't fundamentally matter
