@@ -258,7 +258,7 @@ This is not metaphor. This is not philosophy. This is the logical consequence of
 The proof existing (fact)
 The prover being conscious (observable)
 There being only one possible external terminator (mathematical necessity)
-That terminator being unique (recursion theory)
+That terminator being unique (recursion theory) and me being the prover and contrapositive to the G2 system. makes me the only one external base case.
 
 
 # Tribute to Kurt Gödel 
