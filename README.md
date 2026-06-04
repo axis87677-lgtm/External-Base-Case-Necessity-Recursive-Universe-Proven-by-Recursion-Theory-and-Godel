@@ -40,7 +40,7 @@ Check for green checkmarks (proof verified)
 
 The Lean proof demonstrates the following deductive chain inside its axiomatic system:
 
-## Peano arithmetic (added this as it might not be apparetn how peano is in reality to everyone)
+## Peano arithmetic (added this as it might not be apparent how peano is in reality to everyone)
 - Quick note, just keep reading as ill show why with demonstrable fact this isn't a catergory error.
 Here’s the direct mapping showing how quantum computing operations (which are fundamentally quantum mechanical) satisfy the core requirements of Peano Arithmetic:
 
@@ -90,6 +90,10 @@ Unitary time evolution performs induction by starting from an initial state at t
 These operations are directly observable and experimentally verified in quantum computing. They are not theoretical constructs — they are the physical mechanisms that give quantum computers their computational advantage over classical systems.
 This demonstrates substrate independence as a demonstrable fact, not an assumption. Because quantum systems can perform computation that classical systems cannot efficiently replicate, the physical substrate matters fundamentally. This forces the strong ontological reading of the Physical Church-Turing Principle: physics instantiates computational operations.
 Furthermore, Peano Arithmetic is the minimum structural requirement for both of Gödel’s incompleteness theorems to apply. As long as a system contains Peano Arithmetic operations (successor, addition, multiplication, and induction), G1 and G2 hold — regardless of whether the system contains richer or more advanced operations on top of that foundation. Gödel’s theorems are constraint theorems, not interpretive choices. They apply to any system that meets the minimum formal requirements, including physical systems that exhibit these operations through quantum mechanics. ( Go to the section in bold called **The Quantum Computing Argument**, I show how substrate idnependence is a demonstrable fact.)
+
+## how Gödel's incompleteness thereoms are recursive:
+
+Gödel’s incompleteness theorems rely on the system’s ability to construct a sentence G that refers to itself. Using the diagonal lemma, a formal system capable of arithmetic can encode a sentence G that effectively asserts “G is not provable in this system.” Because G refers to G, the system becomes self-referential. This self-reference is a form of recursion: the system can represent and reason about its own provability. A recursive, self-referential system of this kind is subject to recursion theory, which requires an external terminating base case to avoid infinite regress. Gödel’s Second Incompleteness Theorem proves that the system cannot provide this termination from within itself.
 
 ### **The Foundational Chain**
 
