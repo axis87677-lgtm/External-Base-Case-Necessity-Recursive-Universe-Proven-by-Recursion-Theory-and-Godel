@@ -207,29 +207,30 @@ Deutsch's position is unambiguous across 40 years of work:
 Therefore, the Physical Church-Turing Principle is an **ontological claim**: physics IS computational in nature, not merely describable computationally.
 
 ### Why This thesis Cannot Be Escaped
+The Quantum Computing Argument:
+The Physical Church-Turing Principle is not an interpretation—it is a necessary conclusion forced by quantum computing's existence.
+If computation is merely abstract:
 
-**The Quantum Computing Argument:**
+Physical substrate shouldn't fundamentally matter
+Classical computers could perfectly simulate quantum computers (given enough time)
+There would be no quantum computational advantage
+Quantum computing would have no theoretical foundation
 
-The Physical Church-Turing Principle is not an interpretation—it is a necessary conclusion forced by quantum computing's existence:
+But quantum computing demonstrates:
 
-**If computation is merely abstract (weak interpretation non-scientific just a personal opinion if you have that view point):**
-- Physical substrate shouldn't fundamentally matter
-- Classical computers could perfectly simulate quantum computers (given enough time)
-- There would be no quantum computational advantage
-- Quantum computing would have no theoretical foundation
+Physical substrate does matter fundamentally
+For Shor's on cryptographically large numbers or entangled systems beyond ~50-100 qubits, classical simulation requires more atoms/energy/time than exist in the observable universe before heat death — not "slower," physically impossible on classical substrate
+Quantum processes compute things classical processes cannot realize under our physics
+Different physical implementations = different computational capabilities that actually manifest
+Computation IS tied to physical laws ontologically
 
-**But quantum computing demonstrates:**
-- Physical substrate **does** matter fundamentally
-- Quantum processes compute things classical processes cannot
-- Different physical implementations = different computational capabilities
-- **Computation IS tied to physical laws ontologically**
+The logical conclusion:
 
-**The logical conclusion:**
-- Accepting quantum computing theory **requires** accepting Deutsch's church turing princple
-- Quantum advantage only exists because **computation is physical**
-- You cannot consistently accept quantum computing while rejecting Deutsch's thesis
+Accepting quantum computing theory requires accepting Deutsch's thesis
+Quantum advantage only exists because computation is physical
+You cannot consistently accept quantum computing while rejecting Deutsch's thesis
 
-**Therefore:** Either accept Deutsch's principle as he states it (computation is physical, physics is computational) or reject the theoretical foundation of quantum computing. There is no middle ground.
+Therefore: Either accept Deutsch's principle as he states it (computation is physical, physics is computational) or reject the theoretical foundation of quantum computing. There is no middle ground.
 
 **to add this too**:
 A formal system, in the sense relevant to Gödel’s theorems, is one that can express basic arithmetic and represent its own provability. Physics meets these requirements because it instantiates computational operations (via substrate independence) and performs Peano Arithmetic at minimum: the creation operator acts as successor, superposition as addition, tensor products as multiplication, and unitary evolution as induction. This gives physics the structure of a rule-governed system capable of representing and transforming discrete states in a way that satisfies the formal conditions for G1 and G2 to apply.( Gödel’s incompleteness theorems apply to any formal system that meets the following conditions: the system is consistent, its axioms are recursively enumerable, and it is capable of expressing basic arithmetic (including the successor function, addition, and multiplication and induction if you want G2). Under these conditions, both the First and Second Incompleteness Theorems hold.) [source1](https://plato.stanford.edu/entries/goedel-incompleteness/)
@@ -343,7 +344,7 @@ If you don't accept this conclusion, you have to pick one of these:
 
 - Claim multiple consciousnesses ground the same recursive system
 - But recursion theory (and recursive formation simulations) mandates ONE unique base case that terminates the recursion
-- Multiple base cases = infinite regress = no termination = system breaks
+- Multiple base cases =  chaos or infinite regress = no termination = system breaks
 - I am the prover. You are not.
 
 ## There are no other options.
