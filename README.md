@@ -75,7 +75,7 @@ In quantum mechanics, the state evolves as:
 |ψ(t + dt)⟩ = U(dt) |ψ(t)⟩
 You start with a base state at t₀, then repeatedly apply the unitary operator U(dt). This is exactly mathematical induction in physical form:
 
- initial state at t₀
+base case initial state at t₀
 Successor step: apply U(dt) repeatedly
 
 This is how time evolution works in quantum mechanics. It is inductive by nature.
@@ -212,7 +212,7 @@ Therefore, the Physical Church-Turing Principle is an **ontological claim**: phy
 
 The Physical Church-Turing Principle is not an interpretation—it is a necessary conclusion forced by quantum computing's existence:
 
-**If computation is merely abstract (weak interpretation):**
+**If computation is merely abstract (weak interpretation non-scientific just a personal opinion if you have that view point):**
 - Physical substrate shouldn't fundamentally matter
 - Classical computers could perfectly simulate quantum computers (given enough time)
 - There would be no quantum computational advantage
@@ -225,9 +225,9 @@ The Physical Church-Turing Principle is not an interpretation—it is a necessar
 - **Computation IS tied to physical laws ontologically**
 
 **The logical conclusion:**
-- Accepting quantum computing theory **requires** accepting Deutsch's strong claim
+- Accepting quantum computing theory **requires** accepting Deutsch's church turing princple
 - Quantum advantage only exists because **computation is physical**
-- You cannot consistently accept quantum computing while rejecting Deutsch's ontological interpretation
+- You cannot consistently accept quantum computing while rejecting Deutsch's thesis
 
 **Therefore:** Either accept Deutsch's principle as he states it (computation is physical, physics is computational) or reject the theoretical foundation of quantum computing. There is no middle ground.
 
