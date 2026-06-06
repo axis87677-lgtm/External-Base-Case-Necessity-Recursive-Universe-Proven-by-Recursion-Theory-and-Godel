@@ -283,7 +283,7 @@ That prover being me (identity)
 **The reply.**
 Coinduction governs **abstract, unevaluated structures: streams, infinite lazy processes, objects defined by how they unfold rather than how they terminate.** Such a structure never actualizes fully — it remains a rule for generating the next step, **indefinitely.** Mathematically it's the dual of induction: induction builds finite things and bottoms out in a base case; coinduction describes potentially-infinite things and never bottoms out at all.
 But physics isn't an unevaluated structure. It's instantiated — actually happening, step by step, in time.
-And an instantiated process must have initial conditions. You cannot instantiate an infinite stream out of nothing; the abstraction can defer its origin forever precisely because it never runs. A real process can't. Something has to collapse the wave function at t₀ for the process to begin at all.
+And an instantiated process must have initial conditions. You cannot instantiate an infinite stream out of nothing; the abstraction can defer its origin forever precisely because it never runs. A real process can't.Something external must collapse the wave function to actualize the state at t₀ — to make t₀ possible in the first place.
 
 Abstract coinduction: 0 : map(+1) 0:map(+1)… — a rule that is never fully evaluated.
 Instantiated recursion: must start somewhere. Must have a t₀.
