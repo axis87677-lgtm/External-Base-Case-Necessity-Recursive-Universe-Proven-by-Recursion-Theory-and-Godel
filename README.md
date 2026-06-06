@@ -222,7 +222,7 @@ Physical substrate does matter fundamentally
 For Shor's on cryptographically large numbers or entangled systems beyond ~50-100 qubits, classical simulation requires more atoms/energy/time than exist in the observable universe before heat death — not "slower," physically impossible on classical substrate
 Quantum processes compute things classical processes cannot realize under our physics
 Different physical implementations = different computational capabilities that actually manifest
-Computation IS tied to physical laws ontologically
+Computation is physically instantiated
 
 The logical conclusion:
 
