@@ -167,7 +167,7 @@ Source: Deutsch, D. (1985). Abstract, Proceedings of the Royal Society of London
 
 ### The Foundation of This Proof
 
-This framework relies on David Deutsch's Physical Church-Turing Principle as a foundational assumption. However, Deutsch's principle is frequently misinterpreted. This section clarifies what Deutsch actually claims and why the correct interpretation matters.
+David Deutsch's Physical Church-Turing Thesis establishes the foundation of this proof. However, Deutsch's thesis is frequently misunderstood. This section clarifies what his thesis actually states and why it matters.
 
 ### Deutsch's Original Formulation (1985)
 
