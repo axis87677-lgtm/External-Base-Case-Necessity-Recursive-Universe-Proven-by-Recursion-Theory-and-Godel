@@ -290,6 +290,8 @@ Instantiated recursion: must start somewhere. Must have a t₀.
 
 The objection borrows the freedom of the unevaluated case and smuggles it into the evaluated one. That freedom doesn't transfer. Coinduction's lack of a base case is a property of structures that never run — and physics runs.
 Therefore coinduction is irrelevant to instantiated physical recursion.
+### Most important refutation for coinduction as fact
+Recursive formations require a base case. We live in a recursive formation universe. Therefore: the universe requires an external base case.
 
 ## to disprove:
 
