@@ -97,7 +97,7 @@ Gödel’s incompleteness theorems are recursive because the sentence G refers t
 
 ### **The Foundational Chain**
 
-Under the Physical Church-Turing Thesis (Deutsch 1985) and substrate independence, physical processes are computational. Physics exhibits Peano Arithmetic operations — including explicit induction via time evolution (base state at t₀, preservation under unitary steps U(dt)) — so the universe instantiates a formal system to which Gödel's second incompleteness theorem (G2 and G1) applies. Peano is the minimum—it's the floor not the ceiling. So even if its richer, as long as its got that minium(peano) both theorems apply.
+Under the Physical Church-Turing Thesis (Deutsch 1985) and substrate independence, physical processes are computational. Physics exhibits Peano Arithmetic operations — including explicit induction via time evolution (base state at t₀, preservation under unitary steps U(dt)) — so the universe instantiates a formal system to which Gödel's second incompleteness theorem (G2 and G1) applies. Peano is the minimum—it's the floor not the ceiling. So even if its richer, as long as its got that minimum(peano) both theorems apply.
 
 A Gödelian system is recursive and self-referential. Recursion theory requires a terminating base case to avoid infinite regress. Internal processes (decoherence, fluctuations) are derivable from the system(infinite regress just system on system = no base case which breaks recursion theory) and thus cannot terminate it (G2 analog: the system cannot prove its own consistency from within).
 
