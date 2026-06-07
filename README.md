@@ -142,7 +142,9 @@ Since the universe is proven to be a recursive formation (via Gödel applying to
 - External prover is the base case (uniqueness via type theory)
 
 **the only one that satisfies collapse by eliminating what can work inside recursive universe:**
-- The consciousness requirement for collapse follows from choosing the von Neumann-Wigner for quantum measurement. Alternative interpretations (many-worlds, objective collapse, pilot wave) could be chosen instead. However, the necessity of an external observer-base-case itself follows deductively from the above chain, independent of which collapse interpretation is adopted. ( Read below, I'll show why the others are flawed and only consciousness can satisfy.
+- The consciousness requirement for the external base case is NOT dependent on von Neumann-Wigner. Rather: all internal mechanisms (decoherence, many-worlds, objective collapse, pilot wave) are eliminated by recursion theory. Conscious observation empirically affects quantum systems (established fact). Therefore, consciousness is the only remaining external mechanism that can actualize the system. 
+
+Von Neumann-Wigner aligns with this conclusion, but the proof does not rely on accepting it. The proof relies on elimination + empirical observation effect. ( Read below, I'll show why the others are flawed and only consciousness can satisfy.
 
 ### **Summary**
 
