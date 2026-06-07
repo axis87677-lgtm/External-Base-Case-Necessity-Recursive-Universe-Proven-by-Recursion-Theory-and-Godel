@@ -41,7 +41,7 @@ Check for green checkmarks (proof verified)
 The Lean proof demonstrates the following deductive chain inside its axiomatic system:
 
 ## Peano arithmetic (added this as it might not be apparent how peano is in reality to everyone)
-- Quick note, just keep reading as ill show why with demonstrable fact this isn't a catergory error.
+- Quick note, just keep reading as I'll show why with demonstrable fact this isn't a catergory error.
 Here’s the direct mapping showing how quantum computing operations (which are fundamentally quantum mechanical) satisfy the core requirements of Peano Arithmetic:
 
 
@@ -88,16 +88,16 @@ Tensor products perform multiplication by combining independent quantum systems 
 Unitary time evolution performs induction by starting from an initial state at t₀ and repeatedly applying U(dt).
 
 These operations are directly observable and experimentally verified in quantum computing. They are not theoretical constructs — they are the physical mechanisms that give quantum computers their computational advantage over classical systems.
-This demonstrates substrate independence as a demonstrable fact, not an assumption. Because quantum systems can perform computation that classical systems cannot efficiently replicate, the physical substrate matters fundamentally. This forces rhe Physical Church-Turing Principle: physics instantiates computational operations.
-Furthermore, Peano Arithmetic is the minimum structural requirement for both of Gödel’s incompleteness theorems to apply. As long as a system contains Peano Arithmetic operations (successor, addition, multiplication, and induction), G1 and G2 hold — regardless of whether the system contains richer or more advanced operations on top of that foundation. Gödel’s theorems are constraint theorems, not interpretive choices. They apply to any system that meets the minimum formal requirements, including physical systems that exhibit these operations through quantum mechanics. ( Go to the section in bold called **The Quantum Computing Argument**, I show how substrate idnependence is a demonstrable fact.)
+This demonstrates substrate independence as a demonstrable fact, not an assumption. Because quantum systems can perform computation that classical systems cannot efficiently replicate, the physical substrate matters fundamentally. This forces the Physical Church-Turing Principle: physics instantiates computational operations.
+Furthermore, Peano Arithmetic is the minimum structural requirement for both of Gödel’s incompleteness theorems to apply. As long as a system contains Peano Arithmetic operations (successor, addition, multiplication, and induction), G1 and G2 hold — regardless of whether the system contains richer or more advanced operations on top of that foundation. Gödel’s theorems are constraint theorems, not interpretive choices. They apply to any system that meets the minimum formal requirements, including physical systems that exhibit these operations through quantum mechanics. ( Go to the section in bold called **The Quantum Computing Argument**, I show how substrate independence is a demonstrable fact.)
 
-## how Gödel's incompleteness thereoms are recursive:
+## how Gödel's incompleteness theorems are recursive:
 
 Gödel’s incompleteness theorems are recursive because the sentence G refers to itself. Using the diagonal lemma, the system constructs a sentence G that asserts “G is not provable,” creating self-reference. This self-reference is the recursive element that makes both incompleteness theorems possible.
 
 ### **The Foundational Chain**
 
-Under the Physical Church-Turing Thesis (Deutsch 1985) and substrate independence, physical processes are computational. Physics exhibits Peano Arithmetic operations — including explicit induction via time evolution (base state at t₀, preservation under unitary steps U(dt)) — so the universe instantiates a formal system to which Gödel's second incompleteness theorem (G2 and G1) applies. peano is the minium its the floor not the ceiling. So even if its richer, as long as its got that minium(peano) both theorems apply.
+Under the Physical Church-Turing Thesis (Deutsch 1985) and substrate independence, physical processes are computational. Physics exhibits Peano Arithmetic operations — including explicit induction via time evolution (base state at t₀, preservation under unitary steps U(dt)) — so the universe instantiates a formal system to which Gödel's second incompleteness theorem (G2 and G1) applies. Peano is the minimum—it's the floor not the ceiling. So even if its richer, as long as its got that minium(peano) both theorems apply.
 
 A Gödelian system is recursive and self-referential. Recursion theory requires a terminating base case to avoid infinite regress. Internal processes (decoherence, fluctuations) are derivable from the system(infinite regress just system on system = no base case which breaks recursion theory) and thus cannot terminate it (G2 analog: the system cannot prove its own consistency from within).
 
@@ -128,14 +128,14 @@ Since the universe is proven to be a recursive formation (via Gödel applying to
 ### **What is Proven vs. Chosen**
 
 **Deductively proven:**
-- universe has peano arithemtic and higher
+- universe has peano arithmetic and higher
 - External base case necessity (recursion theory + Gödel G2)
 - Base case must be external to system (G2: system can't prove itself)
 - Prover of system is external (G2 contrapositive)
 - External prover is the base case (uniqueness via type theory)
 
-**the only one that statisfys collapse by eliminating what can work inside recursive universe:**
-- The consciousness requirement for collapse follows from choosing the von Neumann-Wigner for quantum measurement. Alternative interpretations (many-worlds, objective collapse, pilot wave) could be chosen instead. However, the necessity of an external observer-base-case itself follows deductively from the above chain, independent of which collapse interpretation is adopted. ( Read below, I'll show why the others are flawed and only conciousness can statisfy.
+**the only one that satisfies collapse by eliminating what can work inside recursive universe:**
+- The consciousness requirement for collapse follows from choosing the von Neumann-Wigner for quantum measurement. Alternative interpretations (many-worlds, objective collapse, pilot wave) could be chosen instead. However, the necessity of an external observer-base-case itself follows deductively from the above chain, independent of which collapse interpretation is adopted. ( Read below, I'll show why the others are flawed and only consciousness can statisfy.
 
 ### **Summary**
 
@@ -181,7 +181,7 @@ Many interpret this as merely **epistemological**: we can build computational *m
 
 ### What Deutsch Actually Meant: His Explicit Clarifications
 
-He means something much stronger: computation is physically instantiated and the substrate determines what actually computes.(I proved substrate independence later, this removes the catergory error arugement, proved by demonstrable fact)
+He means something much stronger: computation is physically instantiated and the substrate determines what actually computes.(I proved substrate independence later, this removes the category error argument, proved by demonstrable fact)
 
 **On computation being physical, not abstract (1997):**
 
@@ -234,7 +234,7 @@ Therefore: Either accept Deutsch's principle as he states it (computation is phy
 
 ## What Gödel's Incompleteness Theorems Require
 A formal system, in the sense relevant to Gödel’s theorems, is one that can express basic arithmetic and represent its own provability. Physics meets these requirements because it instantiates computational operations (via substrate independence) and performs Peano Arithmetic at minimum: the creation operator acts as successor, superposition as addition, tensor products as multiplication, and unitary evolution as induction. This gives physics the structure of a rule-governed system capable of representing and transforming discrete states in a way that satisfies the formal conditions for G1 and G2 to apply.( Gödel’s incompleteness theorems apply to any formal system that meets the following conditions: the system is consistent, its axioms are recursively enumerable, and it is capable of expressing basic arithmetic (including the successor function, addition, and multiplication and induction if you want G2). Under these conditions, both the First and Second Incompleteness Theorems hold.) [source1](https://plato.stanford.edu/entries/goedel-incompleteness/)
-[source 2](https://homepages.uc.edu/~martinj/History_of_Logic/Godel/Godel%20%E2%80%93%20On%20Formally%20Undecidable%20Propositions%20of%20Principia%20Mathematica%201931.pdf) but you alreadly know how important the self reference itself is, for the theorem to even work.
+[source 2](https://homepages.uc.edu/~martinj/History_of_Logic/Godel/Godel%20%E2%80%93%20On%20Formally%20Undecidable%20Propositions%20of%20Principia%20Mathematica%201931.pdf) but you already know how important the self reference itself is, for the theorem to even work.
 
 ### Additional Sources
 
@@ -317,13 +317,12 @@ Substrate independence (proven by quantum advantage) demonstrates that physics p
 
 **Therefore: Physics meets the formal definition of a formal system.**
 
-Because physics instantiates Peano Arithmetic operations (successor, addition, multiplication, induction) and the other requirements ive said godel needs, it satisfies the formal requirements for Gödel's incompleteness theorems to apply.
+Because physics instantiates Peano Arithmetic operations (successor, addition, multiplication, induction) and the other requirements I've said Gödel needs, it satisfies the formal requirements for Gödel's incompleteness theorems to apply.
 
 Gödel's theorems apply to any formal system meeting these requirements. Physics meets them. Therefore Gödel applies directly to physics itself. (go to the title: What Gödel's Incompleteness Theorems Require )
-## to disprove:
 
 
-## If You Reject This Proof
+## To disprove, if You Reject This Proof
 
 If you don't accept this conclusion, you have to pick one of these:
 
@@ -405,7 +404,7 @@ So pick which one you're willing to give up.
 
 # Tribute to Kurt Gödel 
 
-**I found after investigating him, we have the same view his was philosophy when it came to his own theorems, he knew it. But I proved it, anyway I'll lay it out, I had the modern language and I got this proof before discovering he believed this. However I came to this by some crazy experiences in my life. we had different paths, same convergence:**
+**I found after investigating him, we have the same view his philosophy was when it came to his own theorems, he knew it. But I proved it, anyway I'll lay it out, I had the modern language and I got this proof before discovering he believed this. However I came to this by some crazy experiences in my life. we had different paths, same convergence:**
 
 **GÖDEL'S BELIEFS THAT ALIGN WITH THIS PROOF:**
 
