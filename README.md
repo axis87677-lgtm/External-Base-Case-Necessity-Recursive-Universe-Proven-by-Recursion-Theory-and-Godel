@@ -302,32 +302,31 @@ Furthermore, every practical example of a **recursive formation simulation** (Mo
 **Therefore:** Coinduction may be valid for abstract mathematical descriptions, but it is irrelevant to instantiated physical recursion. Recursive formations require a base case. We live in a recursive formation universe. Therefore the universe requires an external base case.
 
 
+
 ## Why Physics Qualifies as a Formal System
 
 **The formal definition of a formal system:**
 
-According to standard mathematical logic, a formal system is defined as:
+According to standard mathematical logic, a formal system requires:
 - A set of symbols (an alphabet)
 - A set of well-formed formulas (grammatically correct strings of those symbols)
 - A set of axioms (initial formulas accepted as true)
 - A set of inference rules (rules for deriving new formulas from existing ones)
 
-A formal system is complete and consistent when it can derive truths about its own structure through these rules.
-
 **Physics instantiates this structure:**
 
-Substrate dependence (proven by quantum advantage) demonstrates that physics physically instantiates computational operations that define formal systems:
+Since substrate dependence is proven via quantum advantage, reality must physically instantiate computation. Computation is fundamentally the manipulation of symbols via mechanical inference rules—the exact definition of a formal system.
 
-- **Symbols and formulas:** Quantum states (|n⟩, |ψ⟩) function as symbols; physical configurations are well-formed formulas
-- **Axioms:** Initial conditions at t₀ function as axioms
-- **Inference rules:** Unitary operators U(dt) function as inference rules—they generate new states from existing states
-- **Operations:** Creation operator (successor), superposition (addition), tensor product (multiplication), time evolution (induction)
+Physics meets this definition precisely:
 
-**Therefore: Physics meets the formal definition of a formal system.**
+- **Symbols (Alphabet):** Quantum states (|n⟩, |ψ⟩) and operators (a†, a, σₓ, σᵧ, etc.)
+- **Well-formed Formulas (Grammar):** Quantum mechanics rules for valid superpositions, tensor products, and unitary operations
+- **Axioms:** Initial conditions at t₀ (state |ψ(t₀)⟩, Hamiltonian H, boundary conditions)
+- **Inference Rules:** Time evolution via Schrödinger equation—|ψ(t+dt)⟩ = U(dt)|ψ(t)⟩
+- **Theorems:** All physically derivable states from repeated application of evolution rules
+- **Peano Operations:** Creation operator (successor), superposition (addition), tensor product (multiplication), time evolution (induction)
 
-Because physics instantiates Peano Arithmetic operations (successor, addition, multiplication, induction) and the other requirements I've said Gödel needs, it satisfies the formal requirements for Gödel's incompleteness theorems to apply.
-
-Gödel's theorems apply to any formal system meeting these requirements. Physics meets them. Therefore Gödel applies directly to physics itself. (go to the title: What Gödel's Incompleteness Theorems Require )
+**Therefore:** Physics is a formal system by the standard mathematical definition. Gödel's incompleteness theorems apply to any formal system meeting these requirements. Physics meets them. Therefore, Gödel applies directly to physical reality.
 
 
 ## To disprove, if You Reject This Proof
