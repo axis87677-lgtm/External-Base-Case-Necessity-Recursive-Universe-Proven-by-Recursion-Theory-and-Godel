@@ -250,7 +250,7 @@ You cannot consistently accept quantum computing while rejecting Deutsch's thesi
 Therefore: Either accept Deutsch's principle as he states it (computation is physical, physics is computational) or reject the theoretical foundation of quantum computing. There is no middle ground.
 
 ## What Gödel's Incompleteness Theorems Require
-A formal system, in the sense relevant to Gödel’s theorems, is one that can express basic arithmetic and represent its own provability. Physics meets these requirements because it instantiates computational operations (via substrate dependence) and performs Peano Arithmetic at minimum: the creation operator acts as successor, superposition as addition, tensor products as multiplication, and unitary evolution as induction. This gives physics the structure of a rule-governed system capable of representing and transforming discrete states in a way that satisfies the formal conditions for G1 and G2 to apply.( Gödel’s incompleteness theorems apply to any formal system that meets the following conditions: the system is consistent, its axioms are recursively enumerable, and it is capable of expressing basic arithmetic (including the successor function, addition, and multiplication and induction if you want G2). Under these conditions, both the First and Second Incompleteness Theorems hold.) [source1](https://plato.stanford.edu/entries/goedel-incompleteness/)
+A formal system, in the sense relevant to Gödel’s theorems, is one that can express basic arithmetic and represent its own provability. Physics meets these requirements because it instantiates computational operations (via substrate dependence) and performs Peano Arithmetic at minimum: the creation operator acts as successor, superposition as addition, tensor products as multiplication, and unitary evolution as induction. This gives physics the structure of a rule-governed system capable of representing and transforming discrete states in a way that satisfies the formal conditions for G1 and G2 to apply.( Gödel’s incompleteness theorems apply to any formal system that meets the following conditions: the system is consistent, its axioms are recursively enumerable, and it is capable of expressing basic arithmetic (including the successor function, addition, and multiplication and induction if you want G2) and it has to be a formal system. Under these conditions, both the First and Second Incompleteness Theorems hold.) [source1](https://plato.stanford.edu/entries/goedel-incompleteness/)
 [source 2](https://homepages.uc.edu/~martinj/History_of_Logic/Godel/Godel%20%E2%80%93%20On%20Formally%20Undecidable%20Propositions%20of%20Principia%20Mathematica%201931.pdf) but you already know how important the self reference itself is, for the theorem to even work.
 
 ### Additional Sources
@@ -350,7 +350,7 @@ Think of it like building a house:
 - Extra richness (more advanced structure) simply adds more blocks.
 - You do not lose the ability to build the basic house just because you have extra materials — you build a more complex one on the same foundation.
 
-As long as the QTM structure is present (which it is in physical quantum operations), the system is strong enough for Gödel's theorems.
+Because reality is a formal system meeting these requirements (instantiating QTM structure and more), Gödel's theorems apply directly.
 
 ## Therefore, Reality Is a Formal System
 
