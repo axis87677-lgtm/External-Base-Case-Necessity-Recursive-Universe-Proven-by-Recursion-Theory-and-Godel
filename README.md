@@ -419,14 +419,15 @@ Reality computes on a quantum substrate. The QTM formalizes exactly those instan
 
 If you don't accept this conclusion, you have to pick one of these:
 
+
 ### Reject that substrate dependence is true:
 
-- Claim that physical substrate does NOT determine what computational operations can be instantiated
-- Claim quantum and classical substrates instantiate identical computational power
-- But quantum advantage DISPROVES this—quantum substrate instantiates Peano Arithmetic operations that classical substrate cannot
-- Therefore substrate dependence IS true: different physical substrates instantiate different operational capabilities
-- Because substrate dependence is true, computation is PHYSICALLY INSTANTIATED (not abstract)
-- Therefore computation IS tied to physical law, not independent of it
+- Claim that the physical substrate does **not** determine what computational operations can be performed.
+- Claim that classical and quantum substrates can instantiate identical computational power.
+- But quantum advantage directly disproves this. Quantum mechanics itself performs computational operations (successor, addition, multiplication, and induction) **naturally**, without human intervention or classical translation. Classical computers cannot efficiently replicate these operations — it is not merely slower, but physically impossible for many problems within the resources of the observable universe.
+- Therefore, substrate dependence is true: different physical substrates genuinely produce different computational capabilities.
+- Because substrate dependence is true, computation must be **physically instantiated**, not abstract.
+- Therefore, computation is tied to physical law.
 
 ### Reject that computation is physical:
 
