@@ -19,7 +19,7 @@ The observer who proved this is that external base case (via logical necessity)
    Quantum mechanics naturally performs Peano Arithmetic operations (successor, addition, multiplication, and induction). These operations are directly captured by the Quantum Turing Machine (QTM). This means physical reality itself instantiates a formal system. Even though reality contains additional structure beyond the minimal QTM (such as deeper symmetries, field effects, and lattice structures), this **extra richness does not break its formal character**. A formal system is defined by the presence of symbols, well-formed formulas, axioms, and inference rules. As long as these minimal requirements are satisfied (which they are via the QTM), additional physical structure constitutes an *extension* of the formal system rather than a violation of it. The richer structure is built *on top of* the formal foundation, not in place of it.
 
 3. **(ontic p1 + p2) Gödel’s incompleteness theorems apply to reality**  
-   Because reality is a formal system containing Peano Arithmetic and has recursively enumerable axioms, both of Gödel’s incompleteness theorems apply directly to the physical universe.
+   Because reality is a formal system that instantiates Peano Arithmetic and has recursively enumerable axioms, both of Gödel’s incompleteness theorems apply directly to the physical universe.
 
 4. **(ontic p1 + p2 + p3) The system is recursive and self-referential**  
    Gödel’s incompleteness theorems are recursive due to the diagonal lemma. The system constructs a self-referential sentence **G** (“G is not provable”) that refers to its own provability. This makes the formal system (reality) inherently recursive.
