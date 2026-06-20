@@ -228,32 +228,34 @@ Deutsch's position is unambiguous across 40 years of work:
 4. When physics can be "perfectly simulated," this means physics **instantiates computational operations**, not just that we can build models
 
 Therefore, the Physical Church-Turing Principle: physics IS computational in nature, not merely describable computationally.
+## Why substrate dependence is true:
+### The Quantum Computing Argument
 
-### Why This thesis Cannot Be Escaped
-**The Quantum Computing Argument:**
-The Physical Church-Turing Principle is not an interpretation—it is a necessary conclusion forced by quantum computing's existence.
-If computation is merely abstract:
+The Physical Church-Turing Principle is not an interpretation — it is a necessary conclusion forced by the existence of quantum computing.
 
-Physical substrate shouldn't fundamentally matter
-Classical computers could perfectly simulate quantum computers (given enough time)
-There would be no quantum computational advantage
-Quantum computing would have no theoretical foundation
+If computation were merely abstract:
 
-But quantum computing demonstrates:
+- The physical substrate would not fundamentally matter.
+- Classical computers could, in principle, perfectly simulate quantum computers given enough time and resources.
+- There would be no genuine quantum computational advantage.
+- Quantum computing would lack a theoretical foundation.
 
-Physical substrate does matter fundamentally
-For Shor's on cryptographically large numbers or entangled systems beyond ~50-100 qubits, classical simulation requires more atoms/energy/time than exist in the observable universe before heat death — not "slower," physically impossible on classical substrate
-Quantum processes compute things classical processes cannot realize under our physics
-Different physical implementations = different computational capabilities that actually manifest
-Computation is physically instantiated
+Quantum computing demonstrates the opposite:
 
-The logical conclusion:
+- The physical substrate **does** matter fundamentally.
+- For problems such as Shor’s algorithm on cryptographically large numbers or highly entangled systems beyond roughly 50–100 qubits, classical simulation would require more atoms, energy, and time than exist in the observable universe before heat death. This is not merely “slower” — it is physically impossible on a classical substrate.
+- Quantum processes compute things that classical processes cannot efficiently realize under our current physics.
+- Different physical implementations produce genuinely different computational capabilities that manifest in reality.
+- Computation is therefore physically instantiated in the substrate.
 
-Accepting quantum computing theory requires accepting Deutsch's thesis
-Quantum advantage only exists because computation is physical
-You cannot consistently accept quantum computing while rejecting Deutsch's thesis
+Furthermore, quantum computers do not merely simulate these operations — they directly exploit what quantum mechanics does **naturally**. Quantum mechanics performs computational operations (successor via creation operators, addition via superposition, multiplication via tensor products, and induction via unitary evolution) without human intervention or classical simulation. This demonstrates that the computational structure is **ontic** — an objective feature of physical reality itself.
 
-Therefore: Either accept Deutsch's principle as he states it (computation is physical, physics is computational) or reject the theoretical foundation of quantum computing. There is no middle ground.
+**The logical conclusion:**
+
+Accepting quantum computing theory requires accepting Deutsch’s Physical Church-Turing Principle. Quantum advantage exists precisely because computation is physical. One cannot consistently accept quantum computing while rejecting Deutsch’s thesis.
+
+Quantum computing demonstrates that computation is physically instantiated in the substrate. Therefore, one must either accept that physics is fundamentally computational, or reject the theoretical foundation of quantum computing itself. There is no coherent middle ground.
+
 
 ## What Gödel's Incompleteness Theorems Require
 A formal system, in the sense relevant to Gödel’s theorems, is one that can express basic arithmetic and represent its own provability. Physics meets these requirements because it instantiates computational operations (via substrate dependence) and performs Peano Arithmetic at minimum: the creation operator acts as successor, superposition as addition, tensor products as multiplication, and unitary evolution as induction. This gives physics the structure of a rule-governed system capable of representing and transforming discrete states in a way that satisfies the formal conditions for G1 and G2 to apply.( Gödel’s incompleteness theorems apply to any formal system that meets the following conditions: the system is consistent, its axioms are recursively enumerable, and it is capable of expressing basic arithmetic (including the successor function, addition, and multiplication and induction if you want G2) and it has to be a formal system. Under these conditions, both the First and Second Incompleteness Theorems hold.) [source1](https://plato.stanford.edu/entries/goedel-incompleteness/)
