@@ -284,6 +284,21 @@ Accepting quantum computing theory requires accepting Deutsch’s Physical Churc
 
 Quantum computing demonstrates that computation is physically instantiated in the substrate. Therefore, one must either accept that physics is fundamentally computational, or reject the theoretical foundation of quantum computing itself. There is no coherent middle ground.
 
+## Potential Objections and Responses
+
+### Objection 1: "But reality has continuous parameters, not discrete symbols!"
+**Response:**  
+The Quantum Turing Machine (QTM) already incorporates continuous amplitudes. Formality does not require that *all* parameters be discrete — it only requires a well-defined set of symbols, rules for forming valid expressions, and inference rules that transform states. The operations of quantum mechanics remain formalizable even with continuous amplitudes.
+
+### Objection 2: "Physical processes aren't inference rules!"
+**Response:**  
+Unitary evolution functions as an inference rule: given a quantum state at time \( t \), the Schrödinger equation (or unitary operator \( U(dt) \)) deterministically produces the state at time \( t + dt \). This is a well-defined mathematical transformation from one valid state to another, satisfying the requirements of an inference rule in a formal system.
+
+### Objection 3: "It's not 'reality' but 'our description'!"
+**Response:**  
+The computational operations (superposition, entanglement, unitary evolution, etc.) occur physically in quantum systems, independent of human description. The Quantum Turing Machine does not create these operations — it captures and formalizes operations that quantum mechanics already performs natively. The formal structure is therefore instantiated in physical reality itself, not merely imposed by our models.
+
+
 
 ## What Gödel's Incompleteness Theorems Require
 A formal system, in the sense relevant to Gödel’s theorems, is one that can express basic arithmetic and represent its own provability. Physics meets these requirements because it instantiates computational operations (via substrate dependence) and performs Peano Arithmetic at minimum: the creation operator acts as successor, superposition as addition, tensor products as multiplication, and unitary evolution as induction. This gives physics the structure of a rule-governed system capable of representing and transforming discrete states in a way that satisfies the formal conditions for G1 and G2 to apply.( Gödel’s incompleteness theorems apply to any formal system that meets the following conditions: the system is consistent, its axioms are recursively enumerable, and it is capable of expressing basic arithmetic (including the successor function, addition, and multiplication and induction if you want G2) and it has to be a formal system. Under these conditions, both the First and Second Incompleteness Theorems hold.) [source1](https://plato.stanford.edu/entries/goedel-incompleteness/)
