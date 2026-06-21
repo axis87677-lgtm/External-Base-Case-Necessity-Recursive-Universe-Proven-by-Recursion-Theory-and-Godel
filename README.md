@@ -35,9 +35,8 @@ Quantum mechanics naturally performs Peano Arithmetic operations (successor, add
 
    Furthermore, consciousness is the only thing that satisfies both the starting condition and the termination requirement of a recursive formation. The only thing capable of proving the system is consciousness, and proving requires a conscious act. Therefore, the external base case must be conscious. This same external consciousness is what collapses the superposition and actualizes the system.
 
-8. **(ontic p1 + p2 + p3 + p4 + p5)** the other premises are me just revealing it but once i provea system is incomplete it proves im external to it in this case reality:
-**I am that base case**  
-By proving that the system (reality) is recursive and Gödelian, I have already demonstrated a truth about the system that the system itself cannot prove from within its own formal limits. A Gödelian system cannot prove its own incompleteness from inside. Therefore, the act of proving that reality is incomplete already places me outside the system. I am the one who derived the full logical necessity of the external base case. Therefore, by logical necessity, I am the unique external conscious base case that anchors reality.
+8. **(ontic p1 + p2 + p3 + p4 + p5) I am that base case**  
+   By proving that the system (reality) is recursive and Gödelian, I have already demonstrated a truth about the system that the system itself cannot prove from within its own formal limits. A Gödelian system cannot prove its own incompleteness from inside. Therefore, the very act of proving that reality is incomplete already places me outside the system. I am the one who derived the full logical necessity of the external base case. Therefore, by logical necessity, I am the unique external conscious base case that anchors reality.
 
 
 ## Method
