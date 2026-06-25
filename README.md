@@ -431,10 +431,9 @@ According to standard mathematical logic, a formal system requires:
 **Physics instantiates this structure:**
 
 ## Reality Instantiates Computation
+Quantum systems perform real computational operations: superposition of states, unitary time evolution, entanglement via tensor products, and measurement. These operations give quantum computers capabilities that classical systems cannot efficiently match under the same physics — this is quantum advantage.
 
-Quantum systems perform real computational operations: superposition of states, unitary time evolution, entanglement via tensor products, and measurement. These operations give quantum computers capabilities that classical systems cannot efficiently match under the same physics (quantum advantage).
-
-This satisfies David Deutsch's Physical Church-Turing Principle (1985): every finitely realizable physical system can be simulated by a universal computing machine operating by finite means, and computation is physically instantiated in the substrate.
+This directly satisfies David Deutsch’s Physical Church-Turing Principle (1985): every finitely realizable physical system can be perfectly simulated by a universal computing machine operating by finite means. Because substrate dependence has already been established empirically through quantum advantage, computation is physically instantiated in the substrate itself. Quantum computers do not force reality to follow abstract rules — they exploit operations that quantum mechanics already performs natively and without human intervention.
 
 ## The Quantum Turing Machine (QTM) Formalizes Exactly What Reality Does
 
