@@ -275,7 +275,8 @@ Quantum computing demonstrates the opposite:
 - Different physical implementations produce genuinely different computational capabilities that manifest in reality.
 - Computation is therefore physically instantiated in the substrate.
 
-Furthermore, quantum computers do not merely simulate these operations — they directly exploit what quantum mechanics does **naturally**. Quantum mechanics performs computational operations (successor via creation operators, addition via superposition, multiplication via tensor products, and induction via unitary evolution) without human intervention or classical simulation. This demonstrates that the computational structure is **ontic** — an objective feature of physical reality itself.
+Furthermore, quantum computers do not merely simulate these operations — they directly exploit what quantum mechanics does **naturally**. Quantum mechanics performs computational operations (successor via creation operators, addition via superposition, multiplication via tensor products, and induction via unitary evolution) without human intervention or classical simulation. This demonstrates that the computational structure is **ontic** — an objective feature of physical reality itself. (We don’t force reality to follow our rules.
+Quantum mechanics already does these operations on its own. That’s why quantum computers work the way they do — they’re just using what the universe is already doing naturally. We’re not inventing it, we’re just tapping into it.)
 
 **The logical conclusion:**
 
