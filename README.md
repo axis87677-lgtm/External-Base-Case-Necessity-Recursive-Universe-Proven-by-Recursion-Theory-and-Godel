@@ -331,6 +331,8 @@ This restriction has nothing to do with whether the system can prove its own glo
 
 G2 still holds for ω-consistent systems (in fact, Gödel’s original proof already worked under the assumption of ω-consistency). Therefore the system still cannot prove its own consistency (Con(S)) from within.
 
+This remains true even when the formal system is physically instantiated in reality. Once physics has been shown to instantiate a formal system capable of expressing basic arithmetic, the metalogical results (including G2) apply to that system. Physical instantiation does not change the internal logical properties of the formal system or allow it to prove its own consistency.
+
 The requirement for an external base case rests on two things that ω-consistency does not affect:
 
 - G2’s contrapositive: A consistent formal system cannot prove its own consistency from inside itself.
@@ -338,6 +340,7 @@ The requirement for an external base case rests on two things that ω-consistenc
 
 ω-consistency changes neither of these. It does not create an internal terminating base case.
 
+The proof stands.
 
 
 ### Shutdown of the "You Are Internal and Proved It" Objection
