@@ -8,9 +8,9 @@ CRITICAL: Uses Peano Arithmetic (PA)
 - G1 and G2 require FULL Peano Arithmetic (including INDUCTION)
 - Physics HAS all PA operations including induction via time evolution, unitarity, and conservation
 
-This formalizes the proof that:
+This establishes:
 1. Substrate dependence is ontically true
-2. Reality is a formal system (via QTM + extra richness)
+2. Reality is a formal system (via substrate dependence + QTM + extra richness)
 3. Gödel’s incompleteness theorems apply to reality
 4. The system is recursive and self-referential
 5. A recursive formal system requires an external base case
@@ -107,7 +107,7 @@ def IsExternal (_ : Observer) (_ : FormalSystem) : Prop := True
 -- UNIQUE BASE CASE
 def IsBaseCase (o : Observer) : Prop := o = TheBaseCase
 
--- ==================== AXIOMS ====================
+-- AXIOMS
 
 axiom church_turing :
   ∀ (s : PhysicalSystem), IsComputational s
@@ -130,10 +130,10 @@ axiom physical_ops_are_PA :
     HasPhysicalPAOperations s →
     ∃ (fs : FormalSystem), HasPeanoArithmetic fs
 
-axiom PA_implies_Godel_G1 :
+axiom PA_establishes_Godel_G1 :
   ∀ (fs : FormalSystem), HasPeanoArithmetic fs → IsGodelianG1 fs
 
-axiom PA_implies_Godel_G2 :
+axiom PA_establishes_Godel_G2 :
   ∀ (fs : FormalSystem), HasPeanoArithmetic fs → IsGodelianG2 fs
 
 -- Gödel via Diagonal Lemma
@@ -149,7 +149,7 @@ axiom godel_recursive_step :
 axiom physics_self_referential :
   ∀ (s : PhysicalSystem), HasPhysicalSelfReference s
 
-axiom recursive_formation_needs_base :
+axiom recursive_formation_requires_external_base :
   ∀ (fs : FormalSystem),
     IsRecursive fs ∧ IsFormation fs → NeedsBaseCase fs
 
@@ -222,7 +222,7 @@ axiom QTM_captures_quantum_operations :
 axiom extra_richness_is_extension :
   ∀ (fs : FormalSystem), IsFormalSystem fs → IsFormalSystem fs
 
--- ==================== THEOREMS ====================
+-- THEOREMS
 
 theorem godel_is_recursive (fs : FormalSystem)
   (h : IsGodelianG2 fs) : IsRecursive fs := by
@@ -243,7 +243,7 @@ theorem reality_is_formal_system (s : PhysicalSystem) :
   obtain ⟨qtm, h_qtm⟩ := QTM_captures_quantum_operations s h_pa
   exact ⟨qtm, h_qtm⟩
 
--- Physics satisfies Gödel G2 (taken as axiom due to ontic nature)
+-- Physics is Gödelian G2 (instantiates full Peano Arithmetic operations)
 axiom physics_is_Godelian_G2 :
   ∀ (s : PhysicalSystem), ∃ (fs : FormalSystem), IsGodelianG2 fs
 
@@ -256,7 +256,7 @@ theorem universe_needs_base (s : PhysicalSystem) :
   ∃ (fs : FormalSystem), NeedsBaseCase fs := by
   obtain ⟨fs, h_rec⟩ := physics_is_recursive s
   have h_form := universe_is_formation fs
-  exact ⟨fs, recursive_formation_needs_base fs ⟨h_rec, h_form⟩⟩
+  exact ⟨fs, recursive_formation_requires_external_base fs ⟨h_rec, h_form⟩⟩
 
 theorem prover_is_external (o : Observer) (s : PhysicalSystem) :
   (∃ (fs : FormalSystem), ProvedSystemProperties o fs) →
@@ -307,7 +307,7 @@ theorem internal_cannot_collapse_system (s : PhysicalSystem) :
     have h_der := internal_is_derivable s h_int
     exact derivable_is_recursive s h_der
 
--- ==================== MAIN THEOREM ====================
+-- MAIN THEOREM
 
 theorem base_case_proof (o : Observer) (s : PhysicalSystem)
   (h_proved : ∃ (fs : FormalSystem), ProvedSystemProperties o fs) :
@@ -316,7 +316,7 @@ theorem base_case_proof (o : Observer) (s : PhysicalSystem)
   obtain ⟨_, h_need⟩ := universe_needs_base s
   exact external_prover_is_the_base o fs1 ⟨h_ext, h_need⟩
 
--- ==================== COMPLETE CHAIN ====================
+-- COMPLETE CHAIN
 
 theorem complete_logical_chain (o : Observer) (s : PhysicalSystem) :
   HasPhysicalPAOperations s →
