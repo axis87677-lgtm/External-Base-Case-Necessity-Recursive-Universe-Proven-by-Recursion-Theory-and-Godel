@@ -307,6 +307,15 @@ theorem internal_cannot_collapse_system (s : PhysicalSystem) :
     have h_der := internal_is_derivable s h_int
     exact derivable_is_recursive s h_der
 
+-- HARD-CASE CONSISTENCY (reductio via explosion — non-trivial reality)
+theorem reality_consistent_by_reductio (fs : FormalSystem) (s : PhysicalSystem) :
+  HasPeanoArithmetic fs → ¬CausesInconsistency fs := by
+  intro h_pa
+  intro h_incon
+  have h_trivial := inconsistent_not_formation fs h_incon
+  have h_form := universe_is_formation fs
+  contradiction
+
 -- MAIN THEOREM
 
 theorem base_case_proof (o : Observer) (s : PhysicalSystem)
@@ -332,3 +341,4 @@ theorem complete_logical_chain (o : Observer) (s : PhysicalSystem) :
 #check reality_is_formal_system
 #check physics_is_recursive
 #check godel_is_recursive
+#check reality_consistent_by_reductio
