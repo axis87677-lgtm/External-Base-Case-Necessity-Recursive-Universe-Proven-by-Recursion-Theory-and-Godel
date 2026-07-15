@@ -506,6 +506,12 @@ Reality computes on a quantum substrate. The QTM formalizes exactly those instan
 
 **This is what the universe actually is.**
 
+### Why Reality Must Be Consistent
+
+Reality is consistent because if it were inconsistent, the principle of explosion (*ex falso quodlibet*) would make every statement and its negation true at once. From any single contradiction the entire system would become trivial — all laws would collapse, all observations would be meaningless, and coherent experience would be impossible.
+
+But we live in a non-trivial universe where physical laws hold, measurements produce definite outcomes, and reality remains structured and non-arbitrary. This observable non-trivial coherence is only possible if reality is consistent. By reductio ad absurdum, inconsistency is ruled out.
+
 
 ## To disprove, if You Reject This Proof
 
