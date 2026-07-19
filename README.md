@@ -8,7 +8,7 @@ framework, and proof structure are original work. AI only implements.
 **Formal proof** of **external base case necessity in recursive systems**
 What This **Proves**
 
-Our reality is a **recursive system (via Peano Arithmetic operations in physics and substrate dependence)**
+Our reality is a **recursive system (via godel diagonal lemma and substrate dependence)**
 Recursive systems require an external base case (via Gödel's Second Incompleteness Theorem)
 The observer who proved this is that external base case (via logical necessity)
 
