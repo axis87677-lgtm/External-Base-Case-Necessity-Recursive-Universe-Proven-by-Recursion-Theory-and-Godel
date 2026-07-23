@@ -160,7 +160,7 @@ axiom godel_G2_unprovability :
   ∀ (fs : FormalSystem),
     IsConsistent fs ∧ HasPeanoArithmetic fs → ¬CanProveItself fs
 
-axiom proved_implies_external :
+axiom proved_necessitates_external :
   ∀ (o : Observer) (fs : FormalSystem),
     ProvedSystemProperties o fs → IsExternal o fs
 
