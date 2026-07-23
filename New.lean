@@ -262,7 +262,7 @@ theorem prover_is_external (o : Observer) (s : PhysicalSystem) :
   (∃ (fs : FormalSystem), ProvedSystemProperties o fs) →
   (∃ (fs : FormalSystem), IsExternal o fs) := by
   intro ⟨fs, h_proved⟩
-  exact ⟨fs, proved_implies_external o fs h_proved⟩
+  exact ⟨fs, proved_necessitates_external o fs h_proved⟩
 
 -- Base case properties
 theorem base_case_must_be_conscious (o : Observer) :
