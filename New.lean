@@ -132,15 +132,15 @@ axiom physical_ops_are_PA :
     HasPhysicalPAOperations s →
     ∃ (fs : FormalSystem), HasPeanoArithmetic fs
 
--- Gödel G1 and G2 require the full set of conditions:
--- formal system + consistency + recursively enumerable axioms + ability to express basic arithmetic (PA) + representability of provability.
--- The formal-system status, consistency, and r.e. character are already established earlier
--- (reality_instantiates_QTM + substrate dependence + reality_consistent_by_reductio).
--- Therefore the remaining arithmetic-strength requirement (HasPeanoArithmetic) is what triggers both theorems.
-axiom formal_system_with_PA_is_Godelian_G1 :
+-- All other Gödel requirements are already established in this file:
+-- formal system (reality_instantiates_QTM), consistency (reality_consistent_by_reductio),
+-- and the consequences of being a formal system strong enough for arithmetic
+-- (r.e. axioms + representability of provability).
+-- Therefore HasPeanoArithmetic is the final requirement that makes both incompleteness theorems apply.
+axiom full_godel_requirements_met_G1 :
   ∀ (fs : FormalSystem), HasPeanoArithmetic fs → IsGodelianG1 fs
 
-axiom formal_system_with_PA_is_Godelian_G2 :
+axiom full_godel_requirements_met_G2 :
   ∀ (fs : FormalSystem), HasPeanoArithmetic fs → IsGodelianG2 fs
 
 -- Gödel via Diagonal Lemma
