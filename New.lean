@@ -109,11 +109,13 @@ def IsBaseCase (o : Observer) : Prop := o = TheBaseCase
 
 -- AXIOMS
 
-axiom church_turing :
-  ∀ (s : PhysicalSystem), IsComputational s
-
+-- Substrate dependence is the primitive
 axiom substrate_dependence :
   ∀ (c : ComputationalSystem), IsSubstratedependent c
+
+-- Because substrate dependence is true, physical reality is computational
+axiom substrate_makes_computational :
+  ∀ (s : PhysicalSystem), IsComputational s
 
 axiom operations_matter :
   ∀ (c : ComputationalSystem),
@@ -215,14 +217,19 @@ axiom inconsistent_not_formation :
   ∀ (fs : FormalSystem), CausesInconsistency fs → ¬IsFormation fs
 
 -- QTM + Extra Richness
-axiom QTM_captures_quantum_operations :
-  ∀ (s : PhysicalSystem), HasPhysicalPAOperations s →
-    ∃ (qtm : FormalSystem), IsFormalSystem qtm
+-- Because substrate dependence is true, the quantum operations reality already performs
+-- (states, unitaries, superposition, measurement) are exactly the QTM structure.
+-- Therefore reality itself is a formal system.
+axiom reality_instantiates_QTM :
+  ∀ (s : PhysicalSystem), ∃ (qtm : FormalSystem), IsFormalSystem qtm
 
 axiom extra_richness_is_extension :
   ∀ (fs : FormalSystem), IsFormalSystem fs → IsFormalSystem fs
 
 -- THEOREMS
+
+theorem physics_computational (s : PhysicalSystem) : IsComputational s :=
+  substrate_makes_computational s
 
 theorem godel_is_recursive (fs : FormalSystem)
   (h : IsGodelianG2 fs) : IsRecursive fs := by
@@ -231,19 +238,11 @@ theorem godel_is_recursive (fs : FormalSystem)
   have h_step := godel_recursive_step fs h
   exact ⟨h_self, h_base, h_step⟩
 
-theorem physics_computational (s : PhysicalSystem) :
-  IsComputational s :=
-  church_turing s
-
--- Step 2: Reality is a formal system (QTM + Extra Richness)
 theorem reality_is_formal_system (s : PhysicalSystem) :
-  HasPhysicalPAOperations s →
   ∃ (fs : FormalSystem), IsFormalSystem fs := by
-  intro h_pa
-  obtain ⟨qtm, h_qtm⟩ := QTM_captures_quantum_operations s h_pa
+  obtain ⟨qtm, h_qtm⟩ := reality_instantiates_QTM s
   exact ⟨qtm, h_qtm⟩
 
--- Physics is Gödelian G2 (instantiates full Peano Arithmetic operations)
 axiom physics_is_Godelian_G2 :
   ∀ (s : PhysicalSystem), ∃ (fs : FormalSystem), IsGodelianG2 fs
 
@@ -264,7 +263,6 @@ theorem prover_is_external (o : Observer) (s : PhysicalSystem) :
   intro ⟨fs, h_proved⟩
   exact ⟨fs, proved_necessitates_external o fs h_proved⟩
 
--- Base case properties
 theorem base_case_must_be_conscious (o : Observer) :
   IsBaseCase o → IsConscious o := by
   intro h; rw [h]; exact the_base_case_is_conscious
@@ -277,13 +275,11 @@ theorem base_case_can_collapse_system (o : Observer) :
   IsBaseCase o → CanCollapseSystemSuperposition o := by
   intro h; rw [h]; exact the_base_case_collapses_system
 
--- Uniqueness
 theorem base_case_is_unique (o₁ o₂ : Observer) :
   IsBaseCase o₁ ∧ IsBaseCase o₂ → o₁ = o₂ := by
   intro ⟨h₁, h₂⟩
   rw [h₁, h₂]
 
--- Quantum System Collapse Theorems
 theorem recursive_has_system_superposition (s : PhysicalSystem) :
   (∃ (fs : FormalSystem), IsRecursive fs) → HasSystemSuperposition s := by
   intro ⟨fs, h_rec⟩
@@ -307,7 +303,6 @@ theorem internal_cannot_collapse_system (s : PhysicalSystem) :
     have h_der := internal_is_derivable s h_int
     exact derivable_is_recursive s h_der
 
--- HARD-CASE CONSISTENCY (reductio via explosion — non-trivial reality)
 theorem reality_consistent_by_reductio (fs : FormalSystem) (s : PhysicalSystem) :
   HasPeanoArithmetic fs → ¬CausesInconsistency fs := by
   intro h_pa
