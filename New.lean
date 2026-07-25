@@ -11,7 +11,7 @@ CRITICAL: Uses Peano Arithmetic (PA)
 This establishes:
 1. Substrate dependence is ontically true
 2. Reality is a formal system (via substrate dependence + QTM + extra richness)
-3. Gödel’s incompleteness theorems apply to reality
+3. Gödel’s incompleteness theorems apply to reality (formal system + consistency + r.e. axioms + PA strength + representability of provability)
 4. The system is recursive and self-referential
 5. A recursive formal system requires an external base case
 6. Internal mechanisms or recursion breaking mechanisms cannot serve as the base case
@@ -132,10 +132,15 @@ axiom physical_ops_are_PA :
     HasPhysicalPAOperations s →
     ∃ (fs : FormalSystem), HasPeanoArithmetic fs
 
-axiom PA_establishes_Godel_G1 :
+-- Gödel G1 and G2 require the full set of conditions:
+-- formal system + consistency + recursively enumerable axioms + ability to express basic arithmetic (PA) + representability of provability.
+-- The formal-system status, consistency, and r.e. character are already established earlier
+-- (reality_instantiates_QTM + substrate dependence + reality_consistent_by_reductio).
+-- Therefore the remaining arithmetic-strength requirement (HasPeanoArithmetic) is what triggers both theorems.
+axiom formal_system_with_PA_is_Godelian_G1 :
   ∀ (fs : FormalSystem), HasPeanoArithmetic fs → IsGodelianG1 fs
 
-axiom PA_establishes_Godel_G2 :
+axiom formal_system_with_PA_is_Godelian_G2 :
   ∀ (fs : FormalSystem), HasPeanoArithmetic fs → IsGodelianG2 fs
 
 -- Gödel via Diagonal Lemma
