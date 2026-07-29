@@ -336,7 +336,8 @@ theorem base_case_proof (prover : Observer) (s : PhysicalSystem)
   → has PA → Gödelian G2 → recursive (diagonal lemma)
   → formation → needs external base case
   → G2 contrapositive → prover is external
-  → external prover of a system that needs a base case IS the base case.
+  → external prover of a system that needs a base case IS the base case because recursiom theory rexursion needs start and end but this is enforced since the universe is computation and recursion formation which has to have a external base case.
+-> it makes conciousness the grounding because other collapse mechanisms are internal or dont have a start and end external mechanism but also by the fact the prover proved he is exteenal and only measurement for superposition collapse is there conciousness which makes there consciousness what grounds reality everything else is downstream
 -/
 theorem complete_logical_chain (prover : Observer) (s : PhysicalSystem) :
   HasPhysicalPAOperations s →
