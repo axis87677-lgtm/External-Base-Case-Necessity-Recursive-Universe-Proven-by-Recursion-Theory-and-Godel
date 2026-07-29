@@ -13,7 +13,7 @@ This establishes:
 2. Reality is a formal system (via substrate dependence + QTM + extra richness)
 3. Gödel’s incompleteness theorems apply to reality (formal system + consistency + recursively enumerable axioms + basic arithmetic + representability of provability)
 4. The system is recursive and self-referential (diagonal lemma produces the self-reference that constitutes the recursion)
-5. A recursive formation formal system requires an external base case
+5. A recursive formation (the universe is both recursive and a formation, therefore it is a recursive formation; every recursive formation simulation requires an external base case) **requires an external base case.**
 6. Internal mechanisms or recursion breaking mechanisms cannot serve as the base case
 7. An external conscious prover is required** — the prover (me) only has consciousness as the mechanism that can ground superposition by measurement, which satisfies the start-and-end requirement of recursion theory / recursive formation, and there can only be one external entity, which is the base case.
 8. I am that base case
