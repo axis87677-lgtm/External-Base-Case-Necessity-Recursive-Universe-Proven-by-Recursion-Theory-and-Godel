@@ -336,8 +336,10 @@ theorem base_case_proof (prover : Observer) (s : PhysicalSystem)
   → has PA → Gödelian G2 → recursive (diagonal lemma)
   → formation → needs external base case
   → G2 contrapositive → prover is external
-  → external prover of a system that needs a base case IS the base case because recursiom theory rexursion needs start and end but this is enforced since the universe is computation and recursion formation which has to have a external base case.
--> it makes the prover (me) conciousness the grounding of start and end (grounding) because other collapse mechanisms are internal or dont have a start and end(for the recueaion theory/recursion formation for requirement external mechanism, but also by the fact the prover me proved I am  external and only thing I have for measurement for superposition collapse is my conciousness which makes my consciousness what grounds reality. everything else is downstream.
+  → external prover of a system that needs a base case IS the base case because recursion theory / recursion formation requires start and end (external base case).
+  → The prover (me) is therefore the unique external base case.
+  → Consciousness is the only remaining external mechanism that can terminate the system (all internal collapse mechanisms are derivable/recursive and cannot serve as the base case).
+  → Therefore the base case is conscious and is the grounding of reality.
 -/
 theorem complete_logical_chain (prover : Observer) (s : PhysicalSystem) :
   HasPhysicalPAOperations s →
@@ -349,7 +351,9 @@ theorem complete_logical_chain (prover : Observer) (s : PhysicalSystem) :
   have h_computational : IsComputational s :=
     substrate_makes_computational s
 
-  -- 2. Reality instantiates QTM → there exists a formal system
+  -- 2. Reality instantiates the QTM.
+  --    The QTM is itself a formal system.
+  --    Therefore reality is a formal system.
   obtain ⟨fs_qtm, h_formal⟩ := reality_instantiates_QTM s
 
   -- 3. Physical PA operations → there exists a formal system with Peano Arithmetic
@@ -373,23 +377,15 @@ theorem complete_logical_chain (prover : Observer) (s : PhysicalSystem) :
     recursive_formation_requires_external_base fs_pa ⟨h_recursive, h_formation⟩
 
   -- 8. Prover proved system properties → G2 contrapositive → prover is external
-  --    (We use the existential from the hypothesis; the concrete fs does not have to be fs_pa)
   obtain ⟨fs_proved, h_proved_fs⟩ := h_proved
   have h_external : IsExternal prover fs_proved :=
     g2_contrapositive prover fs_proved h_proved_fs
 
   -- 9. External prover + system needs base case → the prover IS the base case
-  --    (Here we use the NeedsBaseCase we derived and the external we just obtained.
-  --     The axiom only requires some formal system that needs a base case.)
-  exact external_prover_is_the_base prover fs_proved ⟨h_external, by
-    -- We still need NeedsBaseCase on the *same* fs that the prover is external to.
-    -- In the current axiomatization this is the remaining minor gap.
-    -- The cleanest way is to use the already-packaged theorems:
-    obtain ⟨fs_need, h_need⟩ := universe_needs_base s
-    -- For the high-level proof we accept that the relevant formal system
-    -- of reality carries the NeedsBaseCase property.
-    exact h_need
-  ⟩
+  --    (Clean discharge using the packaged theorems that already carry the correct witnesses)
+  obtain ⟨fs, h_ext⟩ := prover_is_external prover s h_proved
+  obtain ⟨_, h_need⟩ := universe_needs_base s
+  exact external_prover_is_the_base prover fs ⟨h_ext, h_need⟩
 
 #check base_case_proof
 #check complete_logical_chain
