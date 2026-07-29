@@ -11,7 +11,7 @@ CRITICAL: Uses Peano Arithmetic (PA)
 This establishes:
 1. Substrate dependence is ontically true
 2. Reality is a formal system (via substrate dependence + QTM + extra richness)
-3. Gödel’s incompleteness theorems apply to reality (formal system + consistency + r.e. axioms + PA strength + representability of provability)
+3. Gödel’s incompleteness theorems apply to reality (formal system + consistency + recursively enumerable axioms + basic arithmetic + representability of provability)
 4. The system is recursive and self-referential (diagonal lemma produces the self-reference that constitutes the recursion)
 5. A recursive formal system requires an external base case
 6. Internal mechanisms or recursion breaking mechanisms cannot serve as the base case
