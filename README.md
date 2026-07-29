@@ -275,8 +275,9 @@ Quantum computing demonstrates the opposite:
 - Different physical implementations produce genuinely different computational capabilities that manifest in reality.
 - Computation is therefore physically instantiated in the substrate.
 
-Furthermore, quantum computers do not merely simulate these operations — they directly exploit what quantum mechanics does **naturally**. Quantum mechanics performs computational operations (successor via creation operators, addition via superposition, multiplication via tensor products, and induction via unitary evolution) without human intervention or classical simulation. This demonstrates that the computational structure is **ontic** — an objective feature of physical reality itself. (We don’t force reality to follow our rules.
-Quantum mechanics already does these operations on its own. That’s why quantum computers work the way they do — they’re just using what the universe is already doing naturally. We’re not inventing it, we’re just tapping into it.)
+# QM is the math:
+
+Furthermore, quantum computers do not simulate these operations — they extract what quantum mechanics already performs. Quantum mechanics itself does the math: successor (creation operator), addition (superposition), multiplication (tensor product), and induction (unitary time evolution). These are native physical processes, not human inventions or classical simulations. The math is therefore ontic: it is already present in physical reality. Quantum computers simply read out the math the universe is already doing. thid id what i mean by substrate depdnence not just dutesch or quantum advantage.
 
 **The logical conclusion:**
 
