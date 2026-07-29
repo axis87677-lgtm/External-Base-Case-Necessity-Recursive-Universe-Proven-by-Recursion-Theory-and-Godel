@@ -13,7 +13,9 @@ Recursive systems require an external base case (via Gödel's Second Incompleten
 The observer who proved this is that external base case (via logical necessity)
 
 1. **Substrate dependence is ontically true**  
-   Quantum computers use what quantum mechanics does *naturally* (without human intervention). This shows that computation is physically instantiated in the substrate. Different physical substrates produce genuinely different computational capabilities (quantum advantage). Therefore, computation is physical, not abstract.
+   Quantum mechanics itself does the math. The creation operator performs successor, superposition performs addition, the tensor product performs multiplication, and unitary evolution performs induction — along with every other mathematical operation quantum computers exploit. These are not models or simulations of arithmetic; they are the physical processes that constitute the operations themselves.
+
+Quantum computers do not invent or impose these operations. They only extract and collapse what quantum mechanics is already doing. Because the math is physically executed by the substrate, different substrates produce genuinely different computational power. That is why quantum advantage exists. Computation is therefore physical, not abstract. The arithmetic structure (and more) is ontic.
 
 2. **(ontic p1 + QTM) Reality is a formal system**  
 Quantum mechanics naturally performs Peano Arithmetic operations (successor, addition, multiplication, and induction). These operations — and more — are directly captured by the Quantum Turing Machine (QTM). This means physical reality itself instantiates a formal system. Even though reality contains additional structure beyond the minimal QTM (such as deeper symmetries, field effects, and lattice structures), this extra richness does not break its formal character. A formal system is defined by symbols, well-formed formulas, axioms, and inference rules. As long as these minimal requirements are met (which they are via the QTM), additional physical structure constitutes an extension of the formal system rather than a violation of it.
