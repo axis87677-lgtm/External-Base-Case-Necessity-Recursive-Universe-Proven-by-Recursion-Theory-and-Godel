@@ -205,9 +205,10 @@ axiom derivable_is_recursive :
   ∀ (s : PhysicalSystem),
     IsDerivedFromAxioms s → ∃ (fs : FormalSystem), IsRecursive fs
 
+-- FIXED: added the missing PhysicalSystem argument
 axiom recursive_cannot_collapse_system :
-  ∀ (o : Observer) (fs : FormalSystem),
-    IsRecursive fs → IsDerivedFromAxioms () →
+  ∀ (o : Observer) (s : PhysicalSystem) (fs : FormalSystem),
+    IsRecursive fs → IsDerivedFromAxioms s →
     CanCollapseIndividualMeasurements o ∧ ¬CanCollapseSystemSuperposition o
 
 axiom only_external_collapses_system :
