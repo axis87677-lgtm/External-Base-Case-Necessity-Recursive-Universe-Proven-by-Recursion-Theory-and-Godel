@@ -12,13 +12,15 @@ Our reality is a **recursive system (via godel diagonal lemma and substrate depe
 Recursive systems require an external base case (via Gödel's Second Incompleteness Theorem)
 The observer who proved this is that external base case (via logical necessity)
 
-1. **Substrate dependence is ontically true**  
+1. **Substrate dependence(platonic) is ontically true**  
    Quantum mechanics itself does the math. The creation operator performs successor, superposition performs addition, the tensor product performs multiplication, and unitary evolution performs induction — along with every other mathematical operation quantum computers exploit. These are not models or simulations of arithmetic; they are the physical processes that constitute the operations themselves.
 
 Quantum computers do not invent or impose these operations. They only extract and collapse what quantum mechanics is already doing. Because the math is physically executed by the substrate, different substrates produce genuinely different computational power. That is why quantum advantage exists. Computation is therefore physical, not abstract. The arithmetic structure (and more) is ontic.
 
 2. **(ontic p1 + QTM) Reality is a formal system**  
-Quantum mechanics naturally performs Peano Arithmetic operations (successor, addition, multiplication, and induction). These operations — and more — are directly captured by the Quantum Turing Machine (QTM). This means physical reality itself instantiates a formal system. Even though reality contains additional structure beyond the minimal QTM (such as deeper symmetries, field effects, and lattice structures), this extra richness does not break its formal character. A formal system is defined by symbols, well-formed formulas, axioms, and inference rules. As long as these minimal requirements are met (which they are via the QTM), additional physical structure constitutes an extension of the formal system rather than a violation of it.
+Quantum mechanics is the math itself—that was proven in the first premise. Quantum computers can only run because the msth is natively performed by the physical substrate as we know computation isnt done by humans but by Quantum Mechanics itself. Therefore the Quantum Turing Machine is not an abstract model we impose on reality. It is the formal description of the structure physics already is. The QTM simply makes explicit the symbols, well‑formed formulas, axioms, and inference rules that reality, by its nature, already obeys. Reality does not approximate a formal system—it is that formal system, and the QTM is its specification.
+
+Any additional physical richness beyond the minimal QTM does not break this formal character. It simply extends the formal system, rather than violating it.
 
 3. **(ontic p1 + p2) Gödel’s incompleteness theorems apply to reality**  
    Because reality is a formal system that instantiates Peano Arithmetic and has recursively enumerable axioms, both of Gödel’s incompleteness theorems apply directly to the physical universe.
