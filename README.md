@@ -572,11 +572,11 @@ If you don't accept this conclusion, you have to pick one of these:
 - Deny that formal systems cannot prove their own consistency from within (G2)
 - Deny that any consistent formal system has true statements it cannot prove (G1)
 - This is proven mathematics since 1931
-- And it applies directly to any system instantiating Peano Arithmetic (which physics does)
+- And it applies directly to any system that that has Peano arithmetic, is consistent in the way Gödel requires, possesses a provability predicate, and has recursively enumerable axioms and is a formal system (which I showed reality meets/is)
 
 ### Reject recursion theory:
 
-- Deny that recursive systems require an external base case
+- Deny that recursive (self referential  formation recursion) systems require an external base case
 - Try writing a recursive function where the base case emerges from the recursion itself
 - It's mathematically impossible—I dare you
 
