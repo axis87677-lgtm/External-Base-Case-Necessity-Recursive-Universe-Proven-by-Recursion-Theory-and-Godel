@@ -96,56 +96,94 @@ Check for green checkmarks (proof verified)
 
 The Lean proof demonstrates the following deductive chain inside its axiomatic system:
 
-## Peano arithmetic (added this as it might not be apparent how peano is in reality to everyone)
-- Quick note, just keep reading as I'll show why with demonstrable fact this isn't a catergory error.
-Here’s the direct mapping showing how quantum computing operations (which are fundamentally quantum mechanical) satisfy the core requirements of Peano Arithmetic:
+## Peano arithmetic
 
+*(Added because it may not be apparent how Peano Arithmetic is present in reality.)*
 
-1. Successor Operation (S(n) = n + 1)
-Quantum version: The creation operator (a†)
+Quick note: keep reading. The mapping below is not a category error — it is a demonstrable fact.
+
+Here is the direct mapping showing how quantum computing operations (which are fundamentally quantum mechanical) satisfy the **full** requirements of Peano Arithmetic:
+
+### 0. Zero (the base element)
+**Quantum version:** the vacuum / ground state \( |0\rangle \).
+
+This is the state annihilated by the annihilation operator:
+\[ a|0\rangle = 0 \]
+It is the starting point of the number-state ladder and the physical counterpart of the Peano zero.
+
+### 0 is not a successor
+There is no number state \( |n\rangle \) such that
+\[ a^\dagger |n\rangle = |0\rangle \]
+The vacuum cannot be reached by applying the creation operator to any existing state. It sits outside the successor relation exactly as required by Peano arithmetic.
+
+### Successor is injective
+If
+\[ a^\dagger |\psi\rangle = a^\dagger |\phi\rangle \]
+(in the Fock / number-state space), then \( |\psi\rangle = |\phi\rangle \).
+
+Distinct occupation-number states produce distinct successors under the creation operator. No two different states map to the same next state.
+
+### 1. Successor Operation (\( S(n) = n + 1 \))
+**Quantum version:** The creation operator \( a^\dagger \)
+
 In quantum mechanics (especially in the quantum harmonic oscillator and second quantization):
 
-States are labeled by occupation number |n⟩ (n = 0, 1, 2, 3…)
-The creation operator acts as:a† |n⟩ = √(n+1) |n+1⟩
+- States are labeled by occupation number \( |n\rangle \) (\( n = 0, 1, 2, 3, \dots \))
+- The creation operator acts as:
+\[ a^\dagger |n\rangle = \sqrt{n+1}\, |n+1\rangle \]
 
 This is a direct successor function. It takes the current number state and produces the next integer state. This is exactly how the successor function works in Peano arithmetic.
-This is not abstract — it’s how real quantum systems (photons, phonons, qubits in certain encodings) actually behave.
 
-2. Addition
-Quantum version: Superposition + linear combination of states
+This is not abstract — it is how real quantum systems (photons, phonons, qubits in certain encodings) actually behave.
+
+### 2. Addition
+**Quantum version:** Superposition + linear combination of states
+
 In quantum mechanics, states can be added:
-|ψ⟩ = α|0⟩ + β|1⟩
+\[ |\psi\rangle = \alpha|0\rangle + \beta|1\rangle \]
+
 When you combine amplitudes or interfere paths, you are performing addition on the quantum states. Superposition is addition happening at the amplitude level.
+
 This satisfies the additive structure required in Peano arithmetic.
 
-3. Multiplication
-Quantum version: Tensor product (⊗)
+### 3. Multiplication
+**Quantum version:** Tensor product \( \otimes \)
+
 When you combine two independent quantum systems, the joint state is given by the tensor product:
-|H⟩ ⊗ |V⟩
+\[ |H\rangle \otimes |V\rangle \]
+
 This multiplies the dimensions and structures of the two systems. Entanglement is a direct result of this multiplicative structure.
+
 Tensor products are how quantum mechanics naturally performs multiplication of state spaces.
 
-5. Induction (Base Case + Successor Step)
-Quantum version: Time evolution under unitary operators
-In quantum mechanics, the state evolves as:
-|ψ(t + dt)⟩ = U(dt) |ψ(t)⟩
-You start with a base state at t₀, then repeatedly apply the unitary operator U(dt). This is exactly mathematical induction in physical form:
+### 4. Induction (Base Case + Successor Step)
+**Quantum version:** Time evolution under unitary operators
 
-base case initial state at t₀
-Successor step: apply U(dt) repeatedly
+In quantum mechanics, the state evolves as:
+\[ |\psi(t + dt)\rangle = U(dt)\, |\psi(t)\rangle \]
+
+You start with a base state at \( t_0 \), then repeatedly apply the unitary operator \( U(dt) \). This is exactly mathematical induction in physical form:
+
+- **Base case:** initial state at \( t_0 \)
+- **Successor step:** apply \( U(dt) \) repeatedly
 
 This is how time evolution works in quantum mechanics. It is inductive by nature.
 
+---
+
 These are not analogies or abstract models. These are actual physical operations performed by real quantum computers using quantum mechanics:
 
-The creation operator (a†) functions as the successor operation by incrementing the occupation number state |n⟩ → |n+1⟩.
-Superposition and linear combinations of states perform addition at the level of quantum amplitudes.
-Tensor products perform multiplication by combining independent quantum systems and their state spaces.
-Unitary time evolution performs induction by starting from an initial state at t₀ and repeatedly applying U(dt).
+- The vacuum \( |0\rangle \) is the zero element and is not a successor.
+- The creation operator is injective on number states and functions as the successor operation by incrementing the occupation number \( |n\rangle \to |n+1\rangle \).
+- Superposition and linear combinations of states perform addition at the level of quantum amplitudes.
+- Tensor products perform multiplication by combining independent quantum systems and their state spaces.
+- Unitary time evolution performs induction by starting from an initial state at \( t_0 \) and repeatedly applying \( U(dt) \).
 
 These operations are directly observable and experimentally verified in quantum computing. They are not theoretical constructs — they are the physical mechanisms that give quantum computers their computational advantage over classical systems.
-This demonstrates substrate dependence as a demonstrable fact, not an assumption. Because quantum systems can perform computation that classical systems cannot efficiently replicate, the physical substrate matters fundamentally. This forces the Physical Church-Turing Principle: physics instantiates computational operations.
-Furthermore, Peano Arithmetic is the minimum structural requirement for both of Gödel’s incompleteness theorems to apply. As long as a system contains Peano Arithmetic operations (successor, addition, multiplication, and induction), G1 and G2 hold — regardless of whether the system contains richer or more advanced operations on top of that foundation. Gödel’s theorems are constraint theorems, not interpretive choices. They apply to any system that meets the minimum formal requirements, including physical systems that exhibit these operations through quantum mechanics. ( Go to the section in bold called **The Quantum Computing Argument**, I show how substrate dependence is a demonstrable fact.)
+
+Peano Arithmetic is the minimum structural requirement for both of Gödel’s incompleteness theorems to apply. As long as a system contains the full Peano structure (zero, non-successor property of zero, injective successor, addition, multiplication, and induction), G1 and G2 hold — regardless of whether the system contains richer or more advanced operations on top of that foundation. Gödel’s theorems are constraint theorems, not interpretive choices. They apply to any system that meets the minimum formal requirements, including physical systems that exhibit these operations through quantum mechanics.
+
+(See **The Quantum Computing Argument** for the demonstration that substrate dependence is a fact. and reality is math)
 
 ## how Gödel's incompleteness theorems are recursive:
 
