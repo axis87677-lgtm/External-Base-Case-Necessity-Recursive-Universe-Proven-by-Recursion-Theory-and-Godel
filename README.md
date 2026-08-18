@@ -105,32 +105,39 @@ Quick note: keep reading. The mapping below is not a category error — it is a 
 Here is the direct mapping showing how quantum computing operations (which are fundamentally quantum mechanical) satisfy the **full** requirements of Peano Arithmetic:
 
 ### 0. Zero (the base element)
-**Quantum version:** the vacuum / ground state \( |0\rangle \).
+**Quantum version:** the vacuum / ground state |0⟩.
 
 This is the state annihilated by the annihilation operator:
-\[ a|0\rangle = 0 \]
+
+a|0⟩ = 0
+
 It is the starting point of the number-state ladder and the physical counterpart of the Peano zero.
 
 ### 0 is not a successor
-There is no number state \( |n\rangle \) such that
-\[ a^\dagger |n\rangle = |0\rangle \]
+There is no number state |n⟩ such that
+
+a†|n⟩ = |0⟩
+
 The vacuum cannot be reached by applying the creation operator to any existing state. It sits outside the successor relation exactly as required by Peano arithmetic.
 
 ### Successor is injective
 If
-\[ a^\dagger |\psi\rangle = a^\dagger |\phi\rangle \]
-(in the Fock / number-state space), then \( |\psi\rangle = |\phi\rangle \).
+
+a†|ψ⟩ = a†|φ⟩
+
+(in the Fock / number-state space), then |ψ⟩ = |φ⟩.
 
 Distinct occupation-number states produce distinct successors under the creation operator. No two different states map to the same next state.
 
-### 1. Successor Operation (\( S(n) = n + 1 \))
-**Quantum version:** The creation operator \( a^\dagger \)
+### 1. Successor Operation (S(n) = n + 1)
+**Quantum version:** The creation operator a†
 
 In quantum mechanics (especially in the quantum harmonic oscillator and second quantization):
 
-- States are labeled by occupation number \( |n\rangle \) (\( n = 0, 1, 2, 3, \dots \))
+- States are labeled by occupation number |n⟩ (n = 0, 1, 2, 3, …)
 - The creation operator acts as:
-\[ a^\dagger |n\rangle = \sqrt{n+1}\, |n+1\rangle \]
+
+a†|n⟩ = √(n+1) |n+1⟩
 
 This is a direct successor function. It takes the current number state and produces the next integer state. This is exactly how the successor function works in Peano arithmetic.
 
@@ -140,17 +147,19 @@ This is not abstract — it is how real quantum systems (photons, phonons, qubit
 **Quantum version:** Superposition + linear combination of states
 
 In quantum mechanics, states can be added:
-\[ |\psi\rangle = \alpha|0\rangle + \beta|1\rangle \]
+
+|ψ⟩ = α|0⟩ + β|1⟩
 
 When you combine amplitudes or interfere paths, you are performing addition on the quantum states. Superposition is addition happening at the amplitude level.
 
 This satisfies the additive structure required in Peano arithmetic.
 
 ### 3. Multiplication
-**Quantum version:** Tensor product \( \otimes \)
+**Quantum version:** Tensor product ⊗
 
 When you combine two independent quantum systems, the joint state is given by the tensor product:
-\[ |H\rangle \otimes |V\rangle \]
+
+|H⟩ ⊗ |V⟩
 
 This multiplies the dimensions and structures of the two systems. Entanglement is a direct result of this multiplicative structure.
 
@@ -160,12 +169,13 @@ Tensor products are how quantum mechanics naturally performs multiplication of s
 **Quantum version:** Time evolution under unitary operators
 
 In quantum mechanics, the state evolves as:
-\[ |\psi(t + dt)\rangle = U(dt)\, |\psi(t)\rangle \]
 
-You start with a base state at \( t_0 \), then repeatedly apply the unitary operator \( U(dt) \). This is exactly mathematical induction in physical form:
+|ψ(t + dt)⟩ = U(dt) |ψ(t)⟩
 
-- **Base case:** initial state at \( t_0 \)
-- **Successor step:** apply \( U(dt) \) repeatedly
+You start with a base state at t₀, then repeatedly apply the unitary operator U(dt). This is exactly mathematical induction in physical form:
+
+- **Base case:** initial state at t₀
+- **Successor step:** apply U(dt) repeatedly
 
 This is how time evolution works in quantum mechanics. It is inductive by nature.
 
@@ -173,17 +183,17 @@ This is how time evolution works in quantum mechanics. It is inductive by nature
 
 These are not analogies or abstract models. These are actual physical operations performed by real quantum computers using quantum mechanics:
 
-- The vacuum \( |0\rangle \) is the zero element and is not a successor.
-- The creation operator is injective on number states and functions as the successor operation by incrementing the occupation number \( |n\rangle \to |n+1\rangle \).
+- The vacuum |0⟩ is the zero element and is not a successor.
+- The creation operator is injective on number states and functions as the successor operation by incrementing the occupation number |n⟩ → |n+1⟩.
 - Superposition and linear combinations of states perform addition at the level of quantum amplitudes.
 - Tensor products perform multiplication by combining independent quantum systems and their state spaces.
-- Unitary time evolution performs induction by starting from an initial state at \( t_0 \) and repeatedly applying \( U(dt) \).
+- Unitary time evolution performs induction by starting from an initial state at t₀ and repeatedly applying U(dt).
 
 These operations are directly observable and experimentally verified in quantum computing. They are not theoretical constructs — they are the physical mechanisms that give quantum computers their computational advantage over classical systems.
 
 Peano Arithmetic is the minimum structural requirement for both of Gödel’s incompleteness theorems to apply. As long as a system contains the full Peano structure (zero, non-successor property of zero, injective successor, addition, multiplication, and induction), G1 and G2 hold — regardless of whether the system contains richer or more advanced operations on top of that foundation. Gödel’s theorems are constraint theorems, not interpretive choices. They apply to any system that meets the minimum formal requirements, including physical systems that exhibit these operations through quantum mechanics.
 
-(See **The Quantum Computing Argument** for the demonstration that substrate dependence is a fact. and reality is math)
+(See **The Quantum Computing Argument** for the demonstration that substrate dependence is a fact.)
 
 ## how Gödel's incompleteness theorems are recursive:
 
